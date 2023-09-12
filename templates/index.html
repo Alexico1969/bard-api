@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bard - API</title>
+    <!-- Bootstrap 5.0.0-beta3 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Bard - API</h1>
+    </div>
+    <div>
+    <!-- simple input form for bard lookup -->
+        <form action="" method="post">
+            <label for="input_text">What is your bidding, my master:</label>
+            <input type="text" name="input_text" id="input_text" size="100">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="answer">
+        <h2>Answer:</h2>
+        <p>{{answer}}</p>
+    </div>
+</body>
+</html>
