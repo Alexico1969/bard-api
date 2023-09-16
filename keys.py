@@ -1,0 +1,1 @@
+bard_key = 'awjbSYqWt60bCnzpPIZXxOzyJHl9yy6BcUqxGWwlvXiaaHsja7M9MTSVquy49ArzYNnbPQ.'
